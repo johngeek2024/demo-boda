@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Boda//Invitacion//ES
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:boda-20270612T210000Z@invitacion
+DTSTAMP:20270612T210000Z
+DTSTART:20270612T210000Z
+DTEND:20270613T070000Z
+SUMMARY:Boda de Mateo & Lucía
+LOCATION:Salón Jardín, Hotel Ejemplo, Ciudad Ejemplo, Estado Demo
+DESCRIPTION:Nos casamos y queremos celebrarlo contigo. Código de vestimenta: formal (blanco y rojo reservados para los novios).
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Mañana es la boda
+END:VALARM
+END:VEVENT
+END:VCALENDAR
